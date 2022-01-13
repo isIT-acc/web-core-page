@@ -1,0 +1,40 @@
+.swiper {
+	box-sizing: border-box;
+	width: 100%;
+	background-color: #F8F8F8;
+
+	@media screen and (min-width:768px) {
+		padding-left: 24px;
+		padding-right: 0;
+	}
+	
+	@media screen and (min-width:1000px) {
+		padding-left: 2.85%;
+		padding-right: 0;
+	}
+
+	&__translucent-vertical-border {
+		margin-top: 7px;
+		height: 81px;
+		z-index: 2;
+
+		@media screen and (min-width:768px) {
+			display: none;
+		}
+	}
+
+	&__continuation {
+		display: none;
+
+		@media screen and (min-width:768px) {
+			display: block;
+			position: absolute;
+			width: 100%;
+			bottom: 0;
+			text-align: left;
+			height: 70px;
+			background-color: #F8F8F8;
+			z-index: 1;
+		}
+	}
+}

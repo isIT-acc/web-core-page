@@ -9,6 +9,9 @@
 		transform: translateY(-6px);
 		cursor: pointer;
 		overflow: hidden;
+		// position: absolute;
+		// top: 50%;
+		// transform: translateY(-50%);
 
 		&:after {
 			content: "Показать все";

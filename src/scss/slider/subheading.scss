@@ -1,0 +1,32 @@
+.subheading {
+	width: 100%;
+	height: 80px;
+	margin: 0;
+	box-sizing: border-box;
+	border-top: 1px solid #D9FFF5;
+	background: linear-gradient(-270deg, #F8F8F8 0%, #FFFFFF 98.61%);
+	
+	@media screen and (min-width:383px){
+		height: 56px;
+	}
+
+	&__text{
+		display: inline-block;
+		padding: 16px;
+		padding-top: 15px;
+		text-transform: uppercase;
+		font-family: "TT Lakes";
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: normal;
+		vertical-align: middle;
+
+		@media screen and (min-width:375px){
+			padding-left: 24px;			
+		}
+
+		@media screen and (min-width:1000px){
+			padding-left: 2.86%;
+		}
+	}
+}

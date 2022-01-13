@@ -1,6 +1,5 @@
 import '../scss/style.scss';
-import './swiper-bundle.min'
-// import './swiper';
+import './swiper';
 import './main';
 
 

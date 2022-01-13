@@ -1,0 +1,21 @@
+.brand-item {
+	cursor: pointer;
+	box-sizing: border-box;
+	height: 72px;
+	background-color: #fff;
+	border: 1px solid #EAEAEA;
+	border-radius: 6px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	&:hover {
+		background: rgba(0,0,0,0.1);
+		transform: scale(1.1);
+		transition: all 0.2s ease-out;
+	}
+	&:focus {
+		background: rgba(0,0,0,0.1);
+		transform: scale(1.1);
+		transition: all 0.2s ease-out;
+	}
+}

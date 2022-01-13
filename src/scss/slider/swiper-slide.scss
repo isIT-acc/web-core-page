@@ -1,0 +1,28 @@
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: transparent;
+	margin-top: 16px;
+	margin-left: 16px;
+	width: 240px;
+	height: auto;
+	max-width: 366px;
+
+	@media screen and (min-width:768px) {
+		margin-top: 0;
+		margin-left: 0;
+		width: 224px;
+		margin-bottom: 16px;
+		margin-right: 3.22%;
+	}
+
+	@media screen and (min-width:870px) {
+		width: 27%;
+		margin-right: 2.76%;
+	}
+
+	@media screen and (min-width:1000px) {
+		width: 22.06%;
+		margin-right: 2.94%;
+	}
+}
