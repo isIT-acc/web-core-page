@@ -1,0 +1,33 @@
+.logo-and-feedback-btns {
+	display: flex;
+	justify-content: flex-start;
+	min-width: 115px;
+	flex-shrink: 1;
+
+	@media screen and (min-width:321px){
+		justify-content: space-between;
+		flex-basis: 73.41%;
+	}
+
+	&__company-logo{
+		margin-left: 1px;
+		margin-right: 12px;
+
+		@media screen and (min-width:544px){
+			margin-left: 16px;
+			margin-right: 0px;
+		}
+	}
+	
+	&__v-divider{
+		margin-left: 4px;
+		margin-right: 4px;
+		&--left{
+			display: none;
+
+			@media screen and (min-width:544px){
+				display: block;
+			}
+		}
+	}
+}

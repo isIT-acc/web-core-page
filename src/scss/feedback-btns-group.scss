@@ -1,0 +1,36 @@
+.feedback-btns-group {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+
+	@media screen and (min-width:321px){
+		justify-content: flex-end;
+	}
+
+	&__btn{
+		&--num--first{
+			display: none;
+
+			@media screen and (min-width:492px){
+				display: block;
+				margin-right: 16px;
+			}
+		}
+		&--num--sec{
+			display: none;
+
+			@media screen and (min-width:440px){
+				display: block;
+				margin-right: 16px;
+			}
+		}
+		&--num--third{
+			display: none;
+
+			@media screen and (min-width:388px){
+				display: block;
+				margin-right: 16px;
+			}
+		}
+	}
+}

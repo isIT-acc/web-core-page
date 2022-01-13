@@ -1,0 +1,41 @@
+.services {
+	font-family: 'TT Lakes', sans-serif;
+	background-color: #F8F8F8;
+
+	&__page-heading{
+		padding-top: 24px;
+
+		@media screen and (min-width:1050px){
+			padding-top: 42px;
+		}
+	}
+
+	&__hor-page-nav{
+		margin-left: 16px;
+		margin-top: 24px;
+
+		@media screen and (min-width:750px){
+			margin-left: 24px;
+			margin-top: 32px;
+		}
+
+		@media screen and (min-width:1050px){
+			margin-left: 34px;
+			margin-top: 8px;
+		}
+	}
+
+	&__about-company{
+		padding-top: 24px;
+		padding-bottom: 24px;
+
+		@media screen and (min-width:750px){
+			padding-top: 32px;
+			padding-bottom: 32px;
+		}
+
+		@media screen and (min-width:1050px){
+			padding: 7px 28.65px 51px 34px;
+		}
+	}
+}

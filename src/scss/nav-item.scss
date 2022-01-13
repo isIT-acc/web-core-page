@@ -1,0 +1,18 @@
+.nav-item {
+	white-space: nowrap;
+	text-decoration: none;
+	padding: 6px 16.5px 6px;
+	border: 2px solid transparent;
+	border-radius: 6px;
+	background-color: transparent;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: -0.2px;
+	color: #7E7E82;
+	font-weight: 500;
+
+	&--choosed{
+		border: 2px solid #B8FFEC;
+		background-color: #fff;
+	}
+}

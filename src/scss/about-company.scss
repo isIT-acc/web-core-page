@@ -1,0 +1,41 @@
+.about-company{
+
+  @media screen and (min-width:520px){
+    display: flex;
+		padding-left: 16px;
+		padding-right: 16px;
+  }
+  @media screen and (min-width:576px){
+    padding-left: 24px;
+		padding-right: 24px;
+  }
+
+  &__text{
+    margin: 0 16px 16px;
+
+    @media screen and (min-width:520px){
+      margin: 0 17px 16px 0;
+    }
+
+    @media screen and (min-width:576px){
+      margin: 0 27px 14px 0;
+    }
+
+    @media screen and (min-width:700px){
+      margin-right: 37px;
+    }
+
+    @media screen and (min-width:750px){
+      margin-right: 47px;
+    }
+
+    @media screen and (min-width:1050px){
+      margin-right: 36px;
+    }
+  }
+  &__paragraphs{
+    @media screen and (min-width:1050px){
+      margin-bottom: 14px;
+    }
+  }
+}

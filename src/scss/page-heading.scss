@@ -1,0 +1,6 @@
+.page-heading{
+	@media screen and (min-width:1050px){
+		display: flex;
+		justify-content: space-between;
+	}
+}

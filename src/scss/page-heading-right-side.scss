@@ -1,0 +1,11 @@
+.page-heading-right-side {
+	display: none;
+	
+	@media screen and (min-width:1050px){
+		display: flex;
+	}
+
+	&__btn-with-text{
+		margin-right: 32px;
+	}
+}

@@ -1,0 +1,20 @@
+.text {
+	display: inline-block;
+	line-height: 24px;
+	font-size: 16px;
+	vertical-align: top;
+	letter-spacing: -0.2px;
+	color: #1B1C21;
+	font-weight: 500;
+
+	&__underline {
+		display: inline-block;
+		border-bottom: 1.2px solid #41F6D7;
+		height: 1px;
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		transform: translateX(-100%);
+	}
+}

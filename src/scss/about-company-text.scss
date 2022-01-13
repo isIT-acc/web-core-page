@@ -1,0 +1,28 @@
+.about-company-text {
+  font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 0.2px;
+	font-weight: 400;
+
+  &__first-paragraph{
+
+    @media screen and (min-width:576px){
+      margin-top: 6px;
+		  margin-bottom: 21px;
+    }
+
+    @media screen and (min-width:1050px){
+      margin-top: 9px;
+		  margin-bottom: 17px;
+    }
+  }
+  
+	&__sec-paragraph{
+		display: none;
+
+    @media screen and (min-width:750px){
+      display: block;
+		  margin-bottom: 10px;
+    }
+	}
+}

@@ -1,0 +1,12 @@
+.sec-paragraph{
+	&__sec-part{
+
+		@media screen and (min-width:750px){
+			display: none;
+		}
+		
+		@media screen and (min-width:1050px){
+			display: inline;
+		}
+	}
+}

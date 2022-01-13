@@ -1,0 +1,15 @@
+.hor-page-nav {
+	display: flex;
+	overflow-x: scroll;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+
+  @media screen and (min-width:1050px){
+    overflow-x: hidden;
+		flex-wrap: wrap;
+  }
+  
+	&::-webkit-scrollbar {
+		width: 0;
+	}
+}

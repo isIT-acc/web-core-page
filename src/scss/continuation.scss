@@ -1,0 +1,57 @@
+.continuation {
+	display: block;
+	white-space: nowrap;
+	text-decoration: none;
+	height: 24px;
+	line-height: 24px;
+
+	&__text{
+		transform: translateY(-6px);
+		cursor: pointer;
+		overflow: hidden;
+
+		&:after {
+			content: "Показать все";
+			margin-right: 5px;
+		}
+
+		&:before {
+			content: "";
+			width: 24px;
+			height: 24px;
+			margin-right: 9px;
+			display: inline-block;
+			vertical-align: top;
+			background: url("../img/common/arr-down-ic.png") 50% 50% no-repeat;
+		}
+
+		&:hover {
+			display: inline-block;
+			outline: none;
+
+			.text__underline {
+				transform: translateX(0);
+				transition: transform 0.2s ease-out;
+			}
+		}
+
+		&:focus {
+			display: inline-block;
+			outline: none;
+
+			.text__underline {
+				transform: translateX(0);
+				transition: transform 0.2s ease-out;
+			}
+		}
+
+		&--displayed{
+			&:before {
+				transform: rotate(180deg);
+			}
+			&:after {
+				content: "Скрыть";
+			}
+		}
+	}
+}
