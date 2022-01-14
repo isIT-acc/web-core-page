@@ -1,0 +1,36 @@
+.repair-electronics{
+  .swiper-wrapper{
+    height: 228px;
+
+    @media screen and (min-width: 768px){
+      height: 240px;
+    }
+
+    @media screen and (min-width: 1440px){
+      height: 259px;
+    }
+  }
+
+  .swiper-item{
+    height: 160px;
+  }
+
+  .swiper {
+    &__translucent-vertical-border {
+      margin-top: 10px;
+      height: 166px; 
+    }
+  }
+
+  .right-array{
+    align-self:flex-end;
+    margin-bottom: 15px;
+    margin-right: 15px;
+  }
+
+  .continuation {
+    &__text{
+
+    }
+  }
+}

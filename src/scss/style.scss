@@ -30,12 +30,15 @@
 @import './libraries/swiper-bundle.min';
 @import './libraries/swiper-bundle-customization';
 
-@import './slider/brands';
-@import './slider/brand-item';
-@import './slider/brand-name';
-@import './slider/right-array';
-@import './slider/subheading';
-@import './slider/swiper-slide';
-@import './slider/swiper-wrapper';
-@import './slider/swiper';
-@import './slider/two-arrs-down-img'
+@import './slider/default_slider/slider-block';
+@import './slider/default_slider/swiper-item';
+@import './slider/default_slider/brand-name';
+@import './slider/default_slider/right-array';
+@import './slider/default_slider/subheading';
+@import './slider/default_slider/swiper-slide';
+@import './slider/default_slider/swiper-wrapper';
+@import './slider/default_slider/swiper';
+@import './slider/default_slider/two-arrs-down-img';
+
+@import './slider/default_slider/repair_electronics_slider/repair-electronics.scss';
+@import './slider/default_slider/repair_electronics_slider/repair-type.scss';

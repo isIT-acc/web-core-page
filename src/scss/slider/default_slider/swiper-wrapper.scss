@@ -14,4 +14,8 @@
         height: 242px;
 		align-content: flex-start;
     }
+
+	@media screen and (min-width:1440px) {
+		height: 261px;
+	}
 }

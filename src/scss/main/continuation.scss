@@ -6,15 +6,21 @@
 	line-height: 24px;
 
 	&__text{
-		transform: translateY(-6px);
+		// transform: translateY(-6px);
 		cursor: pointer;
 		overflow: hidden;
 		// position: absolute;
 		// top: 50%;
 		// transform: translateY(-50%);
+		cursor: pointer;
+    	overflow: hidden;
+
+		@media screen and (min-width:1440px) {
+			bottom: 50px;
+		}
 
 		&:after {
-			content: "Показать все";
+			content: "Читать далее";
 			margin-right: 5px;
 		}
 

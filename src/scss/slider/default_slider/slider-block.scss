@@ -1,0 +1,23 @@
+.slider-block {
+	background-color: #F8F8F8;
+
+	&__text{
+		position:absolute;
+		bottom:32px;
+	}
+
+	.continuation {
+		&__text{
+			&:after {
+				content: "Показать все";
+				margin-right: 5px;
+			}
+			
+			&--displayed{
+				&:after {
+					content: "Скрыть";
+				}
+			}
+		}
+	}
+}
