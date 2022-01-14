@@ -10,7 +10,7 @@ initSwipers(htmlSwipers);
 function initSwipers(htmlSwipers){
   for(var i=0; i<htmlSwipers.length; i++){
     var swiperWrapper=htmlSwipers[i].querySelector(".swiper-wrapper");
-    var swiperItems=htmlSwipers[i].querySelectorAll(".swiper-item");
+    var swiperItems=htmlSwipers[i].querySelectorAll(".swiper-slide");
     var showAllBtn=htmlSwipers[i].querySelector(".swiper__continuation");
     var hiddenTextLabel=htmlSwipers[i].querySelector(".continuation__text");
     initSwiper(htmlSwipers[i], [swiperWrapper, swiperItems, showAllBtn]);

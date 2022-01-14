@@ -1,12 +1,19 @@
 .swiper-slide {
 	text-align: center;
 	font-size: 18px;
-	background: transparent;
 	margin-top: 16px;
 	margin-left: 16px;
 	width: 240px;
-	height: auto;
 	max-width: 366px;
+	cursor: pointer;
+	box-sizing: border-box;
+	height: 72px;
+	background-color: #fff;
+	border: 1px solid #EAEAEA;
+	border-radius: 6px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 
 	@media screen and (min-width:768px) {
 		margin-top: 0;
@@ -24,5 +31,17 @@
 	@media screen and (min-width:1000px) {
 		width: 22.06%;
 		margin-right: 2.94%;
+	}
+
+	&:hover {
+		background: rgba(0,0,0,0.1);
+		transform: scale(1.1);
+		transition: all 0.2s ease-out;
+	}
+	
+	&:focus {
+		background: rgba(0,0,0,0.1);
+		transform: scale(1.1);
+		transition: all 0.2s ease-out;
 	}
 }
