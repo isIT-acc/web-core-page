@@ -12,7 +12,7 @@ function initSwipers(htmlSwipers){
     var swiperWrapper=htmlSwipers[i].querySelector(".swiper-wrapper");
     var swiperItems=htmlSwipers[i].querySelectorAll(".swiper-slide");
     var showAllBtn=htmlSwipers[i].querySelector(".swiper__continuation");
-    var hiddenTextLabel=htmlSwipers[i].querySelector(".continuation__text");
+    var hiddenTextLabel=htmlSwipers[i].querySelector(".continuation__hidden-text");
     initSwiper(htmlSwipers[i], [swiperWrapper, swiperItems, showAllBtn]);
     addOrRemoveTabindexAttr(swiperItems,showAllBtn);
     addClickListener(hiddenTextLabel, swiperShowAllBtnHandler, [swiperWrapper, swiperItems]);
@@ -49,7 +49,7 @@ function initSwiper(htmlSwiper, paramsArr){
     if(paramsArr[0] && window.innerWidth>=768){
       paramsArr[0].style.removeProperty("transform");
       if(paramsArr[0]) paramsArr[0].removeAttribute("style");
-      if(paramsArr[0] && !paramsArr[0].style.height && htmlSwiper.querySelector(".continuation__text--displayed")){
+      if(paramsArr[0] && !paramsArr[0].style.height && htmlSwiper.querySelector(".continuation__hidden-text--displayed")){
         paramsArr[0].style.height="auto";
       }
     }
@@ -67,7 +67,7 @@ function initSwiper(htmlSwiper, paramsArr){
 function swiperShowAllBtnHandler(showAllBtn, options){
   if(showAllBtn){
     var classes=showAllBtn.classList;
-    if(classes.toggle("continuation__text--displayed")){
+    if(classes.toggle("continuation__hidden-text--displayed")){
       showAllBtn.style.transform="translateY(-50%) translateY(15px)";
       if(options[0]) options[0].style.height="auto";
       showAllBtn.parentElement.style.position="relative";

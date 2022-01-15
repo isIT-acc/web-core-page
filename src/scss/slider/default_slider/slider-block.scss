@@ -1,13 +1,13 @@
 .slider-block {
 	background-color: #F8F8F8;
 
-	&__text{
+	&__hidden-text{
 		position:absolute;
 		bottom:32px;
 	}
 
 	.continuation {
-		&__text{
+		&__hidden-text{
 			&:after {
 				content: "Показать все";
 				margin-right: 5px;
@@ -17,6 +17,10 @@
 				&:after {
 					content: "Скрыть";
 				}
+			}
+			
+			@media screen and (min-width:1440px) {
+				bottom: 50px;
 			}
 		}
 	}

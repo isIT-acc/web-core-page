@@ -10,6 +10,16 @@
 		padding-right: 24px;
   }
 
+  &__hidden-text{
+    position: relative;
+  }
+
+  &__paragraphs{
+    @media screen and (min-width:1050px){
+      margin-bottom: 14px;
+    }
+  }
+
   &__text{
     margin: 0 16px 16px;
 
@@ -32,10 +42,5 @@
     @media screen and (min-width:1050px){
       margin-right: 36px;
     }
-  }
-  &__paragraphs{
-    @media screen and (min-width:1050px){
-      margin-bottom: 14px;
-    }
-  }
+  }  
 }

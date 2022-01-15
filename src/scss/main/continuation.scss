@@ -5,7 +5,7 @@
 	height: 24px;
 	line-height: 24px;
 
-	&__text{
+	&__hidden-text{
 		// transform: translateY(-6px);
 		cursor: pointer;
 		overflow: hidden;
@@ -15,9 +15,6 @@
 		cursor: pointer;
     	overflow: hidden;
 
-		@media screen and (min-width:1440px) {
-			bottom: 50px;
-		}
 
 		&:after {
 			content: "Читать далее";
@@ -38,7 +35,7 @@
 			display: inline-block;
 			outline: none;
 
-			.text__underline {
+			.hidden-text__underline {
 				transform: translateX(0);
 				transition: transform 0.2s ease-out;
 			}
@@ -48,7 +45,7 @@
 			display: inline-block;
 			outline: none;
 
-			.text__underline {
+			.hidden-text__underline {
 				transform: translateX(0);
 				transition: transform 0.2s ease-out;
 			}
