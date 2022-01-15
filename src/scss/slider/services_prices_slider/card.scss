@@ -1,0 +1,48 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    &__line-header{
+        color:#7E7E82;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    &__value{
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.2px;
+        margin-top: 4px;
+    }
+    
+    &__body{
+        margin: 16px 0;
+    }
+
+    &__btn{
+        width: 119px;
+        height: 32px;
+        background: #FF3E79;
+        border-radius: 16px;
+        font-size: 12px;
+        line-height: 24px;
+        font-weight: 700;
+        letter-spacing: -0.15px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: left;
+        padding-left: 12px;
+        align-self:flex-end;
+    }
+
+    &__footer{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 4px;
+        align-items: top;
+        width: 100%;
+    }
+
+}

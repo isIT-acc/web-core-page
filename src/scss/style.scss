@@ -26,6 +26,7 @@
 @import './main/back-img';
 @import './main/page-heading';
 @import './main/sec-paragraph';
+@import './main/text';
 
 @import './libraries/swiper-bundle.min';
 @import './libraries/swiper-bundle-customization';
@@ -33,7 +34,7 @@
 @import './slider/default_slider/slider-block';
 @import './slider/default_slider/swiper-item';
 @import './slider/default_slider/brand-name';
-@import './slider/default_slider/right-array';
+@import './slider/default_slider/circle-right-array';
 @import './slider/default_slider/subheading';
 @import './slider/default_slider/swiper-slide';
 @import './slider/default_slider/swiper-wrapper';
@@ -41,4 +42,8 @@
 @import './slider/default_slider/two-arrs-down-img';
 
 @import './slider/default_slider/repair_electronics_slider/repair-electronics.scss';
-@import './slider/default_slider/repair_electronics_slider/repair-type.scss';
+
+@import './slider/services_prices_slider/services-prices.scss';
+
+@import './slider/services_prices_slider/card.scss';
+@import './slider/services_prices_slider/right-array.scss'

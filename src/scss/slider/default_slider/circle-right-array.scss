@@ -1,4 +1,4 @@
-.right-array {
+.circle-right-array {
 	position: relative;
 	box-sizing: border-box;
 	width: 40px;
@@ -6,7 +6,6 @@
 	border-radius: 50%;
 	border: 2px solid #FF3E79;
 	display: inline-block;
-	margin-right: 15px;
 	&:before {
 		content: "";
 		display: inline-block;

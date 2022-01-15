@@ -1,0 +1,53 @@
+.services-prices{
+	.swiper-wrapper{
+    height: 260px;
+
+    // @media screen and (min-width: 768px){
+    //   height: 240px;
+    // }
+
+    // @media screen and (min-width: 1440px){
+    //   height: 259px;
+    // }
+  }
+
+	.swiper-slide{
+		height: 200px;
+		margin: 16px 8px 0;
+		width: 260px;
+		border: none;
+		text-align: left;
+	}
+
+  .swiper{
+    &__translucent-vertical-border{
+      margin-top: 16px;
+      height: 200px;
+    }
+  }
+
+
+  // .swiper {
+  //   &__translucent-vertical-border {
+  //     margin-top: 10px;
+  //     height: 166px; 
+  //   }
+  // }
+
+  // .right-array{
+  //   align-self:flex-end;
+  // }
+
+  // &__text{
+  //   font-size: 16px;
+  //   line-height: 24px;
+  //   align-self: flex-start;
+  //   font-weight: 500;
+  //   text-align: left;
+  //   letter-spacing: -0.2px;
+  // }	
+
+  .swiper-pagination-bullets.swiper-pagination-horizontal{
+    bottom:16px;
+  }
+}

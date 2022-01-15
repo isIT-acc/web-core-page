@@ -1,0 +1,11 @@
+.text{
+    font-family: "TT Lakes",sans-serif;
+    color: #1B1C21;
+
+    &--card-value{
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: 0.2px;
+      margin-top: 4px;
+    }
+}
