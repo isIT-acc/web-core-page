@@ -11,8 +11,51 @@
 	font-weight: 500;
   cursor:pointer;
 
+  
+  
+  &--choosed{
+    color: #7E7E82;
+
+    &:hover{
+      cursor:default;
+    }
+  }
+
+  &--close-icon {
+    background: #FF3E79 url("../img/site-header/close-ic.svg") 50% 50% no-repeat;
+  }
+
   &--flex-shrink--none{
     flex-shrink: 0;
+  }
+
+  &--interactive--change-bg-1{
+    &:focus{
+      background-color: rgb(216, 215, 215);
+      transition: background-color 0.3s;
+      outline: none;
+    }
+    &:hover{
+      background-color: rgb(216, 215, 215);
+      transition: background-color 0.3s;
+      cursor:pointer;
+      outline: none;
+    }
+  }
+
+  &--interactive--change-bg-2{
+    &:focus{
+      background-color: #e42861;
+      transition: background-color 0.3s;
+      outline: none;
+    }
+    &:hover{
+      background-color: #e42861;
+      transition: background-color 0.3s;
+      cursor:pointer;
+      outline: none;
+    }
+
   }
 
   &--round{
@@ -27,6 +70,10 @@
     background: #FF3E79 url("../img/site-header/phone-ic.svg") 50% 50% no-repeat;
   }
   
+  &--margin-left--7px{
+    margin-left: 7px;
+  }
+
   &--message-icon {
     background: #FF3E79 url("../img/site-header/message-ic.svg") 50% 50% no-repeat;
   }
@@ -50,6 +97,15 @@
   
   &--show {
     display: block;
+  }
+
+  &--small{
+    width:27.5px;
+    height: 27.5px;
+    min-width: 27.5px;
+    font-size: 16px;
+    line-height: 27.5px;
+    letter-spacing: -0.2px;
   }
 }
 

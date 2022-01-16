@@ -11,8 +11,21 @@
 	color: #7E7E82;
 	font-weight: 500;
 
+	&:focus:not(.nav-item--choosed){
+		outline: none;
+		background-color: #d8d7d7;
+    	transition: background-color 0.3s;
+	}
+	&:hover:not(.nav-item--choosed){
+		outline: none;
+		background-color: #d8d7d7;
+    	transition: background-color 0.3s;
+	}
+
 	&--choosed{
 		border: 2px solid #B8FFEC;
 		background-color: #fff;
+		cursor: default;
 	}
+
 }

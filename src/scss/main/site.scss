@@ -1,7 +1,11 @@
 .site {
 	margin: 0 auto;
-	max-width: 1366px;
+	max-width: 1440px;
+	background-color: #fff;
 
+	@media screen and (min-width:1120px){
+		display: flex;
+	}
 	&__container {
 		max-width: 1120px;
 		margin: 0 auto;
@@ -14,6 +18,15 @@
 	&__header{
 		@media screen and (min-width:1120px){
 			display: none;
+		}
+	}
+
+	&__navbar{
+		display: none;
+		// position: absolute;
+    	// left:0;
+		@media screen and (min-width:1120px){
+			display: block;
 		}
 	}
 }

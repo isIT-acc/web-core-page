@@ -1,0 +1,22 @@
+.sidebar-footer{
+	&__feedback-btns-group{
+		margin-bottom: 13px;
+		margin-top: 16px;
+	}
+
+	&__company-email{
+		margin-bottom: 4px;
+	}
+
+	&__company-phone{
+		margin-bottom: 35px;
+		padding:5px;
+	}
+	&__languages{
+		margin-bottom: 32px;
+	}
+	
+	&__link{
+		color: #7E7E82;
+	}
+}

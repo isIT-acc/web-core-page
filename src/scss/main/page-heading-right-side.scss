@@ -7,5 +7,24 @@
 
 	&__btn-with-text{
 		margin-right: 32px;
+
+		// :focus{
+		// 	cursor: pointer;
+		// 	transition: background-color 0.3s;
+		// 	background-color: #d8d7d7;				
+			
+		// 	.btn-with-text__btn{
+		// 		background-color: #e42861;
+		// 	}
+		// }
+		// :hover{
+		// 	cursor: pointer;
+		// 	transition: background-color 0.3s;
+		// 	background-color: #d8d7d7;
+			
+		// 	.btn-with-text__btn{
+		// 		background-color: #e42861;
+		// 	}
+		// }
 	}
 }

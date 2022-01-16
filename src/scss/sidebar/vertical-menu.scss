@@ -1,0 +1,59 @@
+.vertical-menu{
+	list-style:none;
+	margin:0;
+	padding:0;
+
+	&__item{
+    display:flex;
+    align-items:center;
+    margin:0;
+    padding:0; 
+		
+		:hover{
+			cursor: pointer;
+		}
+	}
+
+	&__link{
+		padding-left:20px;
+		display: block;
+		color:#1B1C21;
+		font-family: "TT Lakes", sans-serif;
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: 500;
+		letter-spacing: -0.2px;
+		padding-bottom:16px;
+		padding-top:16px;
+		width:100%;
+
+		
+		&:focus{
+			&:not(.vertical-menu__link--choosed){
+				background-color: rgb(216, 215, 215);
+    			transition: background-color 0.3s;
+				outline: none;
+			}
+		}
+
+		&:hover{
+			cursor:pointer;
+
+			&:not(.vertical-menu__link--choosed){
+				background-color: rgb(216, 215, 215);
+    			transition: background-color 0.3s;
+				outline: none;
+			}
+
+		}
+
+		&--choosed{
+			color:#7E7E82;
+	
+			&:hover{
+					cursor:default; 
+					outline: none;
+			}
+		}
+	}
+}

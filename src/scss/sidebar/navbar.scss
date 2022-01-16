@@ -1,0 +1,97 @@
+.navbar{
+	width: 320px;    
+	box-shadow: -2px 0px 4px rgb(69 79 126 / 2%), 16px 0px 52px rgb(14 24 80 / 20%);
+
+	@media screen and (min-height:791px){
+		// height:100vh;
+	}
+	@media screen and (min-width:1120px){
+		height: 921px;
+		box-shadow: none;
+	}
+
+	&__btns-group-right-side{
+		justify-content: flex-end;
+
+		@media screen and (min-width: 1120px){
+			margin-bottom: 10px;
+		}
+	}
+
+	&__btns-group-left-side{
+		justify-content: flex-start;
+
+		@media screen and (min-width: 1120px){
+			display: none;
+		}
+	}
+
+	&__company-logo{
+		margin-left:8px;    
+    	margin-right:5px;
+
+		@media screen and (min-width:1120px) {
+			margin-left: 22px;
+		}
+		&:hover{
+			cursor:pointer;
+			outline:none;
+		}
+	}
+
+	&__content{
+		display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc( 100% - 104px );
+    margin-top: 17px;
+	}
+
+	&__feedback-btns-group{
+		margin-left: 24px;
+    	justify-content: flex-start;
+	}
+
+	&__languages{
+		margin-left: 24px;
+	}
+
+	&__company-email{
+		margin-left: 21px;
+    	padding:3px;
+
+		&:hover{
+			display:inline-block;
+			background-color: rgb(216, 215, 215);
+			transition: background-color 0.3s;
+			cursor:pointer;
+			outline:none;
+		}
+
+		&:focus{
+			display:inline-block;
+			background-color: rgb(216, 215, 215);
+			transition: background-color 0.3s;
+			outline:none;
+		}
+	}
+
+	&__company-phone{
+		margin-left: 19px;
+		
+		&:hover{
+			display:inline-block;
+			background-color: rgb(216, 215, 215);
+			transition: background-color 0.3s;
+			cursor:pointer;
+			outline:none;
+		}
+
+		&:focus{
+			display:inline-block;
+			background-color: rgb(216, 215, 215);
+			transition: background-color 0.3s;
+			outline:none;
+		}
+	}
+}

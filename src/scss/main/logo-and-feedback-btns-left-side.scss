@@ -1,4 +1,19 @@
 .logo-and-feedback-btns-left-side {
 	display: flex;
 	align-items: center;
+
+	&__logo-link{
+		&:hover{
+			filter:brightness(0.7);
+			transition: all 0.3s;
+			cursor:pointer;
+			outline:none;
+		}
+
+		&:focus{
+			filter:brightness(0.7);
+			transition: all 0.3s;
+			outline:none;
+		}
+	}
 }

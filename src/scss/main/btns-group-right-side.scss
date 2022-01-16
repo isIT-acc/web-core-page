@@ -3,4 +3,8 @@
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
+
+	&__btn{
+		margin-right: 22.5px;
+	}
 }

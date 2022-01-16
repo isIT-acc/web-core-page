@@ -16,7 +16,26 @@
         height: auto;
         margin-top: 16px;  
         font-size: 16px;
-        line-height: 24px;  
+        line-height: 24px; 
+        position: relative;
+        overflow: hidden;
+        
+        &:hover{
+            outline: none;
+            .hidden-text__underline{
+                position: absolute;
+                transform: translateX(0);
+                transition: transform 0.2s ease-out;
+            }
+        }
+        &:focus{
+            outline: none;
+            .hidden-text__underline{
+                position: absolute;
+                transform: translateX(0);
+                transition: transform 0.2s ease-out;
+            }
+        }
     }
     .text{
         font-size: 14px;
