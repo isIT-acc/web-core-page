@@ -1,0 +1,23 @@
+.table{
+    display: none;
+    @media screen and (min-width: 768px){
+        display: table;
+        border-collapse: collapse;
+        box-sizing: border-box;
+        background-color: transparent;
+        margin-left: 40px;
+        margin-right: 40px;
+        width: calc(100% - 80px);
+        border-radius: 6px;
+    }
+
+    &__text{
+        font-size: 14px;
+        line-height: 16px;
+        
+        color: #7E7E82;
+        mix-blend-mode: normal;
+        opacity: 0.72;
+        font-weight: 500;
+    }
+}

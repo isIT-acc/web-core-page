@@ -1,12 +1,11 @@
 .services {
 	font-family: 'TT Lakes', sans-serif;
-	background-color: #F8F8F8;
 	position: relative;
 
 	&__page-heading{
 		padding-top: 24px;
 
-		@media screen and (min-width:1050px){
+		@media screen and (min-width:1120px){
 			padding-top: 42px;
 		}
 	}
@@ -20,7 +19,7 @@
 			margin-top: 32px;
 		}
 
-		@media screen and (min-width:1050px){
+		@media screen and (min-width:1120px){
 			margin-left: 34px;
 			margin-top: 8px;
 		}
@@ -35,7 +34,7 @@
 			padding-bottom: 32px;
 		}
 
-		@media screen and (min-width:1050px){
+		@media screen and (min-width:1120px){
 			padding: 7px 28.65px 51px 34px;
 		}
 	}

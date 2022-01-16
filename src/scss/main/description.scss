@@ -1,10 +1,26 @@
 .description{
     line-height: 20px;
     padding: 0 16px 40px;
+    
+    @media screen and (min-width: 768px){
+        padding-left: 24px;
+        padding-top: 24px;
+        max-width: 421px;
+        padding-bottom: 47px;
+    }
+
     .btn{
-        font-size: 14px;
         text-align: left;
         letter-spacing: 0.2px;    
-        width: auto;        
+        width: auto;
+        height: auto;
+        margin-top: 16px;  
+        font-size: 16px;
+        line-height: 24px;  
+    }
+    .text{
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
     }
 }

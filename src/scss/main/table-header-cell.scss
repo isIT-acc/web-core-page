@@ -1,0 +1,14 @@
+.table-header-cell{
+    text-align: left;
+    padding: 31px 0 16px;
+    height: 16px;
+    &--first{
+        width: 54%;
+    }
+    &--second{
+        width: 13%;
+    }
+    &--third{
+        width: 33%;
+    }
+}

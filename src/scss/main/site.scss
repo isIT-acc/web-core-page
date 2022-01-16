@@ -6,10 +6,13 @@
 		max-width: 1120px;
 		margin: 0 auto;
 		background: #F8F8F8;
+		@media screen and (min-width:1120px){
+			background: #FFF;
+		}
 	}
 
 	&__header{
-		@media screen and (min-width:1050px){
+		@media screen and (min-width:1120px){
 			display: none;
 		}
 	}

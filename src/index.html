@@ -187,6 +187,14 @@
         </div>
         <div class="slider-block services-prices">
           <h2 class="subheading"><span class="subheading__text">Цены на услуги</span></h2>
+          <table class="table">
+            <tr class="table-header-row">
+              <th class="table-header-cell table-header-cell--first text table__text">Ремонтные услуги</th>
+              <th class="table-header-cell table-header-cell--second text table__text">Цена</th>
+              <th class="table-header-cell  table-header-cell--third text table__text">Срок</th>
+            </tr>
+          </table>
+          
           <div class="swiper swiper-initialized swiper-horizontal">
             <div class="translucent-vertical-border swiper__translucent-vertical-border"></div>
             <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);">
@@ -200,7 +208,7 @@
                   <div class="text card__value">Бесплатно</div>
                 </div>
                 <div class="card__footer">
-                  <div>
+                  <div class="card__time">
                     <div class="text card__line-header">Срок</div>
                     <div class="text card__value">30 мин</div>
                   </div>
@@ -219,7 +227,7 @@
                   <div class="text card__value">1000&#8381;</div>
                 </div>
                 <div class="card__footer">
-                  <div>
+                  <div class="card__time">
                     <div class="text card__line-header">Срок</div>
                     <div class="text card__value">30-120 мин</div>
                   </div>
@@ -238,7 +246,7 @@
                   <div class="text card__value">1000&#8381;</div>
                 </div>
                 <div class="card__footer">
-                  <div>
+                  <div class="card__time">
                     <div class="text card__line-header">Срок</div>
                     <div class="text card__value">30-120 мин</div>
                   </div>
@@ -257,7 +265,7 @@
                   <div class="text card__value">1000&#8381;</div>
                 </div>
                 <div class="card__footer">
-                  <div>
+                  <div class="card__time">
                     <div class="text card__line-header">Срок</div>
                     <div class="text card__value">30-120 мин</div>
                   </div>
@@ -267,7 +275,7 @@
                 </div>
               </div>
               <div class="swiper-slide card">
-                <div class="card-header">
+                <div class="card__header">
                   <div class="text card__line-header">Ремонтные услуги</div>
                   <div class="text card__value">Замена программного обеспечения</div>
                 </div>
@@ -276,7 +284,7 @@
                   <div class="text card__value">1000&#8381;</div>
                 </div>
                 <div class="card__footer">
-                  <div>
+                  <div class="card__time">
                     <div class="text card__line-header">Срок</div>
                     <div class="text card__value">30-120 мин</div>
                   </div>
@@ -287,19 +295,13 @@
               </div>                 
             </div>
             <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
-            <div class="swiper__continuation continuation btn">
-              <span class="slider-block__hidden-text continuation__hidden-text hidden-text" tabindex="0">
-              <span class="hidden-text__underline"></span>
-              </span>                    
-            </div>
           </div>
         </div>
         <div class="description">
           <div class="text">
             Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.
-            <br><br>
           </div>
-          <button class="btn description__btn text" type="button">
+          <button class="btn description__btn" type="button">
             Получить коммерческое 
               <span class="nowrap">предложение
                 <img src="./img/common/right-arr-pink.png" class="right-arr-pink" alt="Правый указатель">
@@ -307,12 +309,12 @@
           </button>
         </div>
         <footer class="footer text">
-          <div>
+          <div class="footer__item footer__item--first">
             <div>© 2019 CPS</div>
             <div>Разработано командой Apesong</div>
           </div>
-          <a>Политика конфиденциальности</a>
-          <div>Информация, размещенная на данной странице, не является публичной офертой</div>
+          <a href="" class="link footer__item footer__item--second">Политика конфиденциальности</a>
+          <div class="footer__item footer__item--third">Информация, размещенная на данной странице, не является публичной офертой</div>
         </footer>
       </div>
     </div>

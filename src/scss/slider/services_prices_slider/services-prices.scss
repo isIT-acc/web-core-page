@@ -1,25 +1,122 @@
 .services-prices{
+  
+  .card{
+    &__line-header{
+      @media screen and (min-width:768px) {
+        display: none;  
+      }      
+    }
+
+    &__btn{
+      @media screen and (min-width:768px) {
+        display: inline-block;  
+        position: absolute;
+        right: 0;
+        top:50%;
+        transform: translateY(-50%);
+      }      
+    }
+
+    &__header{
+      @media screen and (min-width:768px) {
+        display: table-cell;
+        width: 54%;
+        vertical-align: middle;
+      }      
+    }
+
+    &__body{
+      @media screen and (min-width:768px) {
+        display: table-cell;
+        width: 13%;
+        vertical-align: middle;
+      }      
+    }
+
+    &__footer{
+      @media screen and (min-width:768px) {
+        display: table-cell;
+        width: 33%;
+        vertical-align: middle;
+        padding-bottom: 0;
+        position: relative;
+      }      
+    }
+
+    &__time{
+      @media screen and (min-width:768px) {
+        display: inline-block;
+      }
+    }
+
+    &__value{
+      @media screen and (min-width:768px) {
+        margin: 0;
+      }
+    }
+  }
+
 	.swiper-wrapper{
     height: 260px;
+    @media screen and (min-width: 768px){
+      display: table;
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 0;
+    }
 
-    // @media screen and (min-width: 768px){
-    //   height: 240px;
-    // }
-
-    // @media screen and (min-width: 1440px){
-    //   height: 259px;
-    // }
+    @media screen and (min-width: 1440px){
+    }
   }
 
 	.swiper-slide{
-		height: 200px;
+    height: 200px;
 		margin: 16px 8px 0;
 		width: 260px;
 		border: none;
 		text-align: left;
+
+    @media screen and (min-width: 768px){
+      display: table-row;
+      height: 64px;
+      margin:0;
+      padding:0;
+      border-bottom: 1px solid #EAEAEA;
+      cursor:unset;
+    }
+    &:hover {
+      @media screen and (min-width: 768px){
+        background: none;
+        transform: none;
+        transition:none;
+      }
+    }
+    
+    &:focus {
+      @media screen and (min-width: 768px){
+        background: none;
+        transform: none;
+        transition:none;
+      }
+    }
+
+    &:last-child{
+      border:none;
+    }
 	}
 
   .swiper{
+
+    @media screen and (min-width: 768px){
+      background-color: #fff;
+      padding-right: 16px;
+      padding-left: 16px;
+      margin-left: 24px;
+      margin-right: 24px;
+      width: calc(100% - 48px);
+      border-radius: 6px;
+    }
+
     &__translucent-vertical-border{
       margin-top: 16px;
       height: 200px;
