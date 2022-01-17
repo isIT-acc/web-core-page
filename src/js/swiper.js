@@ -58,7 +58,7 @@ function initSwiper(htmlSwiper, paramsArr){
         paramsArr[0].style.marginLeft="-65px";
       }
       if(paramsArr[0] && paramsArr[0].style.height) paramsArr[0].style.removeProperty("height");
-    }
+    }    
   });
   librarySwiper = htmlSwiper.swiper;
 }

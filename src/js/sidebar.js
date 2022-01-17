@@ -18,7 +18,7 @@ var hamburgerBtnHandler = function () {
   }
 };
 
-var closeBtnHandler = function () {
+export var closeBtnHandler = function () {
   var siteNavbar = document.querySelector(".site__navbar");
   var siteContainer = document.querySelector(".site__container");
   if (siteNavbar) {

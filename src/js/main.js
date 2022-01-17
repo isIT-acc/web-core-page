@@ -1,3 +1,5 @@
+import {closeBtnHandler} from './sidebar';
+
 export function addClickListener(element,handler,paramsArray){
   if(element && handler){
     element.addEventListener("click",function(){
@@ -31,3 +33,9 @@ export function addOrRemoveTabindexAttr(elements,aboveElement){
     }
   }  
 }
+
+window.addEventListener("resize",function(){
+  if(window.innerWidth>=1120){
+    closeBtnHandler();
+  }
+})
