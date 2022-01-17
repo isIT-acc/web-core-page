@@ -7,5 +7,21 @@
       line-height: 18px;
       letter-spacing: 0.2px;
       margin-top: 4px;
-    }    
+    }
+
+    &--description-color{
+      color: #7E7E82;
+    }
+
+    &--placeholder-color{
+      color: #B5B6BC;
+    }
+    
+    &--white{
+      color:#fff;
+    }
+
+    &--pink{
+      color:#FF3E79;
+    }
 }

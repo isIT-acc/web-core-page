@@ -107,5 +107,21 @@
     line-height: 27.5px;
     letter-spacing: -0.2px;
   }
+
+  &--wide{
+    width: 119px;
+    height: 32px;
+    background: #FF3E79;
+    border-radius: 16px;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: -0.15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: left;
+    padding-left: 12px;
+    align-self: flex-end;
+  }
 }
 

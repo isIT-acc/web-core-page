@@ -1,5 +1,3 @@
-@import './animations/animations.scss';
-
 @import './main/fonts';
 @import './main/body';
 @import './main/site';
@@ -60,3 +58,7 @@
 @import './sidebar/company-phone.scss';
 @import './sidebar/navbar.scss';
 @import './sidebar/vertical-menu.scss';
+
+@import './modal-screen/modal-screen.scss';
+@import './modal-screen/modal-screen-form.scss';
+@import './modal-screen/modal-screen-header.scss';

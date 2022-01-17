@@ -1,0 +1,11 @@
+.modal-screen-header{
+    &__btn{
+        margin-left: 16px;
+        @media screen and (min-width:525px){
+            position: absolute;
+            left: -32px;
+            margin-left: 0;
+            transform: translateX(-100%);
+        }
+    }
+}

@@ -1,4 +1,5 @@
-import {closeBtnHandler} from './sidebar';
+import {navbarCloseBtnHandler} from './sidebar';
+import {hideModalScreens} from './btnsListeners';
 
 export function addClickListener(element,handler,paramsArray){
   if(element && handler){
@@ -36,6 +37,9 @@ export function addOrRemoveTabindexAttr(elements,aboveElement){
 
 window.addEventListener("resize",function(){
   if(window.innerWidth>=1120){
-    closeBtnHandler();
+    navbarCloseBtnHandler();
   }
 })
+var blurryWindow = document.querySelector(".blurry-window")
+addClickListener(blurryWindow, navbarCloseBtnHandler);
+addClickListener(blurryWindow, hideModalScreens);

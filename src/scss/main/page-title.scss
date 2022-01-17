@@ -4,6 +4,10 @@
 	&__heading{
 		margin-left: 12px;
 
+		@media screen and (min-width:525px){
+			margin-left: 30px;
+		}
+
 		@media screen and (min-width:750px){
 			margin-left: 20px;
 		}
@@ -11,5 +15,11 @@
 		@media screen and (min-width:1050px){
 			margin-left: 30px;
 		}
+	}
+
+	&__text{
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: -0.2px;		
 	}
 }

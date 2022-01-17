@@ -44,6 +44,9 @@
 		transition: transform 0.5s ease-out, box-shadow 1.5s ease-out;
 		@media screen and (min-width:1120px){
 			display: block;
+			position:static;
+			transform: none;
+			transition: unset;
 		}
 	}
 }

@@ -1,10 +1,10 @@
 import { addClickListener, addSpaceEnterListener } from "./main";
 
 var hamburgerBtn = document.querySelector(".btn--hamburger-icon");
-var closeBtn = document.querySelector(".btn--close-icon");
+var navbarCloseBtn = document.querySelector(".site__navbar .btn--close-icon");
 
 // var bluredScreenHandler = function () {
-//     closeBtnHandler();
+//     navbarCloseBtnHandler();
 // }
 
 var hamburgerBtnHandler = function () {
@@ -22,12 +22,11 @@ var hamburgerBtnHandler = function () {
       "background-color",
       "rgba(255,255,255,96.05%)"
     );
-    blurryWindow.style.setProperty("z-index", "10");
-    addClickListener(blurryWindow, closeBtnHandler);
+    blurryWindow.style.setProperty("z-index", "10");    
   }
 };
 
-export var closeBtnHandler = function () {
+export var navbarCloseBtnHandler = function () {
   var siteNavbar = document.querySelector(".site__navbar");
   var blurryWindow = document.querySelector(".blurry-window");
   if (siteNavbar) {
@@ -43,7 +42,7 @@ if (hamburgerBtn) {
   addClickListener(hamburgerBtn, hamburgerBtnHandler);
   addSpaceEnterListener(hamburgerBtn, hamburgerBtnHandler);
 }
-if (closeBtn) {
-  addClickListener(closeBtn, closeBtnHandler);
-  addSpaceEnterListener(closeBtn, closeBtnHandler);
+if (navbarCloseBtn) {
+  addClickListener(navbarCloseBtn, navbarCloseBtnHandler);
+  addSpaceEnterListener(navbarCloseBtn, navbarCloseBtnHandler);
 }
