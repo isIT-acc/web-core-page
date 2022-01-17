@@ -7,11 +7,13 @@ export function addClickListener(element,handler,paramsArray){
 }
 
 export function addSpaceEnterListener(element, handler, paramsArray){
-  element.addEventListener("keydown",function(event){
-    if(event.code === "Space" || event.code === "Enter" ){
-      handler(this, paramsArray);
-    }
-  });
+  if(element && handler){
+    element.addEventListener("keydown",function(event){
+      if(event.code === "Space" || event.code === "Enter" ){
+        handler(this, paramsArray);
+      }
+    });
+  }  
 }
 
 // add or remove tabindex attribute to elements depends 

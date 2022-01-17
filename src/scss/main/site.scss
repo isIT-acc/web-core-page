@@ -2,6 +2,7 @@
 	margin: 0 auto;
 	max-width: 1440px;
 	background-color: #fff;
+	position: relative;
 
 	@media screen and (min-width:1120px){
 		display: flex;
@@ -10,8 +11,22 @@
 		max-width: 1120px;
 		margin: 0 auto;
 		background: #F8F8F8;
+		position:relative;
 		@media screen and (min-width:1120px){
 			background: #FFF;
+		}
+
+		&--blured{
+			&:after{
+				content:"";
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				left:0;
+				top:0;
+				animation: bluring 0.5s ease-out forwards;
+				z-index: 10;
+			}
 		}
 	}
 
@@ -22,9 +37,11 @@
 	}
 
 	&__navbar{
-		display: none;
-		// position: absolute;
-    	// left:0;
+		position: fixed;
+		z-index: 11;
+		transform: translateX(-100%);
+    	box-shadow: 0 0 0 rgb(69 79 126 / 0%);
+		transition: transform 0.5s ease-out, box-shadow 1.5s ease-out;
 		@media screen and (min-width:1120px){
 			display: block;
 		}
