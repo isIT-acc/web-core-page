@@ -15,7 +15,7 @@ module.exports = {
   },
 
   // Source maps для удобства отладки
-  devtool: "source-map",
+  // devtool: "source-map",
   resolve: {
     extensions: [".js", ".json", ".png"],
   },
