@@ -11,7 +11,7 @@ module.exports = {
 
   // Выходной файл
   output: {
-    filename: './js/bundle[contenthash].js'
+    filename: './js/bundle.js'
   },
 
   // Source maps для удобства отладки
@@ -84,7 +84,7 @@ module.exports = {
 
     // Кладем стили в отдельный файлик
     new MiniCssExtractPlugin({
-      filename: 'style[contenthash].css',
+      filename: 'style.css',
     }),
 
     // Копируем картинки
