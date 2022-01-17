@@ -11,6 +11,7 @@ var modalScreenCloseBtnHandler = function(event){
     var blurryWindow = document.querySelector(".blurry-window");
     event.parentElement.parentElement.style.removeProperty("transform");
     event.parentElement.parentElement.style.removeProperty("z-index");
+    event.parentElement.parentElement.style.removeProperty("opacity");
     blurryWindow.style.removeProperty("z-index");
 }
 
@@ -18,6 +19,7 @@ export var hideModalScreens = function(){
     for(var j=0;j < modalScreens.length; j++){
         modalScreens[j].style.removeProperty("transform");
         modalScreens[j].style.removeProperty("z-index");
+        modalScreens[j].style.removeProperty("opacity");
     }
 }
 var phoneBtnHandler = function(){
@@ -26,11 +28,13 @@ var phoneBtnHandler = function(){
         if(modalScreens[j].classList.contains("modal-screen--request-a-call")){
             modalScreens[j].style.setProperty("transform", "translateX(0)");
             modalScreens[j].style.setProperty("z-index", "13");  
+            modalScreens[j].style.setProperty("opacity", "1");  
             navbarCloseBtnHandler();   
             blurryWindow.style.setProperty("z-index", "10");   
         }
         else{
             modalScreens[j].style.removeProperty("transform");
+            modalScreens[j].style.removeProperty("opacity");
         }
     }    
 }
@@ -41,11 +45,13 @@ var messageBtnHandler = function(){
         if(modalScreens[j].classList.contains("modal-screen--send-feedback")){
             modalScreens[j].style.setProperty("transform", "translateX(0)");
             modalScreens[j].style.setProperty("z-index", "13"); 
+            modalScreens[j].style.setProperty("opacity", "1");
             navbarCloseBtnHandler();  
             blurryWindow.style.setProperty("z-index", "10");        
         }
         else{
             modalScreens[j].style.removeProperty("transform");
+            modalScreens[j].style.removeProperty("opacity");
         }
     }
 }
