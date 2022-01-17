@@ -7,7 +7,7 @@
     justify-content: space-between;
     font-size: 14px;
     line-height: 16px;
-    color: #7E7E82;
+    color: $color-dark-grey;
     mix-blend-mode: normal;
     opacity: 0.72;
     border-top: 1px solid #D9FFF5;
@@ -44,18 +44,18 @@
     }
 
     &__link{
-        color: #7E7E82;
+        color: $color-dark-grey;
         padding: 0 13px;
 
         &:hover{
-            background-color: #d8d7d7;
+            background-color: $color-medium-grey;
             transition: background-color 0.3s;
             cursor: pointer;
             outline: none;
         }
 
         &:focus{
-            background-color: #d8d7d7;
+            background-color: $color-medium-grey;
             transition: background-color 0.3s;
             cursor: pointer;
             outline: none;

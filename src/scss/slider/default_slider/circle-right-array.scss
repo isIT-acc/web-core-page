@@ -4,7 +4,7 @@
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
-	border: 2px solid #FF3E79;
+	border: 2px solid $color-pink;
 	display: inline-block;
 	&:before {
 		content: "";
@@ -15,7 +15,7 @@
 		top: 50%;
 		left: 50%;
 		transform-origin: 8px 50%;
-		background-color: #FF3E79;
+		background-color: $color-pink;
 		border-radius: 5px;
 		transform: translateX(-50%) translateY(-50%) rotate(45deg);
 	}
@@ -28,7 +28,7 @@
 		top: 50%;
 		left: 50%;
 		transform-origin: 8px 50%;
-		background-color: #FF3E79;
+		background-color: $color-pink;
 		border-radius: 5px;
 		transform: translateX(-50%) translateY(-50%) rotate(-45deg);
 	}

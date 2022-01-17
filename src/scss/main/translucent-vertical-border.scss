@@ -1,7 +1,7 @@
 .translucent-vertical-border {
 	width: 21px;
 	height: 40px;
-	background: linear-gradient(to left, #F8F8F8 5px,transparent);
+	background: linear-gradient(to left, $color-light-grey 5px,transparent);
 
 	@media screen and (min-width:1121px){
 		display: none;

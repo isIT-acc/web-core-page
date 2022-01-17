@@ -7,27 +7,27 @@
 	&:hover{
 		cursor: pointer;
 		transition: background-color 0.3s;
-		background-color: #d8d7d7;
+		background-color: $color-medium-grey;
 		outline: none;
 		// transform: scale(1.1);
 		.btn-with-text__btn{
-			background-color: #e42861;
+			background-color: $color-dark-pink;
 		}
 	}
 	&:focus{
 		cursor: pointer;
 		transition: background-color 0.3s;
-		background-color: #d8d7d7;
+		background-color: $color-medium-grey;
 		outline: none;
 		.btn-with-text__btn{
-			background-color: #e42861;
+			background-color: $color-dark-pink;
 		}
 		// transform: scale(1.1);
 	}
 	&__text{
 		font-size: 16px;
 		line-height: 24px;
-		color: #1B1C21;
+		color: $color-shade-black;
 		letter-spacing: -0.2px;
 		font-weight: 500;
 	}

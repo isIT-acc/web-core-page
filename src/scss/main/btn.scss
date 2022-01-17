@@ -14,7 +14,7 @@
   
   
   &--choosed{
-    color: #7E7E82;
+    color: $color-dark-grey;
 
     &:hover{
       cursor:default;
@@ -22,7 +22,7 @@
   }
 
   &--close-icon {
-    background: #FF3E79 url("../img/site-header/close-ic.svg") 50% 50% no-repeat;
+    background: $color-pink url("../img/site-header/close-ic.svg") 50% 50% no-repeat;
   }
 
   &--flex-shrink--none{
@@ -31,12 +31,12 @@
 
   &--interactive--change-bg-1{
     &:focus{
-      background-color: rgb(216, 215, 215);
+      background-color: $color-medium-grey;
       transition: background-color 0.3s;
       outline: none;
     }
     &:hover{
-      background-color: rgb(216, 215, 215);
+      background-color: $color-medium-grey;
       transition: background-color 0.3s;
       cursor:pointer;
       outline: none;
@@ -45,12 +45,12 @@
 
   &--interactive--change-bg-2{
     &:focus{
-      background-color: #e42861;
+      background-color: $color-dark-pink;
       transition: background-color 0.3s;
       outline: none;
     }
     &:hover{
-      background-color: #e42861;
+      background-color: $color-dark-pink;
       transition: background-color 0.3s;
       cursor:pointer;
       outline: none;
@@ -63,11 +63,11 @@
   }
   
   &--hamburger-icon{
-    background: #FF3E79 url("../img/site-header/hamburger-ic.svg") 50% 50% no-repeat;
+    background: $color-pink url("../img/site-header/hamburger-ic.svg") 50% 50% no-repeat;
   }
   
   &--phone-icon {
-    background: #FF3E79 url("../img/site-header/phone-ic.svg") 50% 50% no-repeat;
+    background: $color-pink url("../img/site-header/phone-ic.svg") 50% 50% no-repeat;
   }
   
   &--margin-left--7px{
@@ -75,23 +75,23 @@
   }
 
   &--message-icon {
-    background: #FF3E79 url("../img/site-header/message-ic.svg") 50% 50% no-repeat;
+    background: $color-pink url("../img/site-header/message-ic.svg") 50% 50% no-repeat;
   }
   
   &--profile-icon {
-    background: #FF3E79 url("../img/site-header/profile-ic.svg") 50% 50% no-repeat;
+    background: $color-pink url("../img/site-header/profile-ic.svg") 50% 50% no-repeat;
   }
   
   &--services-icon {
-    background: #FF3E79 url("../img/site-header/services-ic.svg") 50% 50% no-repeat;
+    background: $color-pink url("../img/site-header/services-ic.svg") 50% 50% no-repeat;
   }
   
   &--page-search-icon {
-    background: #FF3E79 url("../img/site-header/page-search-ic.svg") 50% 50% no-repeat;
+    background: $color-pink url("../img/site-header/page-search-ic.svg") 50% 50% no-repeat;
   }
   
   &--search-icon {
-    background: #FF3E79 url("../img/site-header/search-ic.svg") 50% 50% no-repeat;
+    background: $color-pink url("../img/site-header/search-ic.svg") 50% 50% no-repeat;
     display: none;
   }
   
@@ -111,14 +111,14 @@
   &--wide{
     width: 119px;
     height: 32px;
-    background: #FF3E79;
+    background: $color-pink;
     border-radius: 16px;
     font-size: 12px;
     line-height: 24px;
     font-weight: 700;
     letter-spacing: -0.15px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: $color-white;
     text-align: left;
     padding-left: 12px;
     align-self: flex-end;

@@ -1,6 +1,6 @@
 .text{
     font-family: "TT Lakes",sans-serif;
-    color: #1B1C21;
+    color: $color-shade-black;
 
     &--card-value{
       font-size: 14px;
@@ -10,7 +10,7 @@
     }
 
     &--description-color{
-      color: #7E7E82;
+      color: $color-dark-grey;
     }
 
     &--placeholder-color{
@@ -18,10 +18,10 @@
     }
     
     &--white{
-      color:#fff;
+      color:$color-white;
     }
 
     &--pink{
-      color:#FF3E79;
+      color:$color-pink;
     }
 }

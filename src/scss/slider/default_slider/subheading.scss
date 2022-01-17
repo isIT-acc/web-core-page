@@ -4,7 +4,7 @@
 	margin: 0;
 	box-sizing: border-box;
 	border-top: 1px solid #D9FFF5;
-	background: linear-gradient(-270deg, #F8F8F8 0%, #FFFFFF 98.61%);
+	background: linear-gradient(-270deg, $color-light-grey 0%, $color-white 98.61%);
 	
 	@media screen and (min-width:383px){
 		height: 56px;

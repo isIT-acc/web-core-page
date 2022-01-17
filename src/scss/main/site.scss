@@ -1,7 +1,7 @@
 .site {
 	margin: 0 auto;
 	max-width: 1440px;
-	background-color: #fff;
+	background-color: $color-white;
 	position: relative;
 
 	@media screen and (min-width:1120px){
@@ -10,10 +10,10 @@
 	&__container {
 		max-width: 1120px;
 		margin: 0 auto;
-		background: #F8F8F8;
+		background: $color-light-grey;
 		position:relative;
 		@media screen and (min-width:1120px){
-			background: #FFF;
+			background: $color-white;
 		}
 
 		// &--blured{

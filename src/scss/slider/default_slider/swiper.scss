@@ -35,12 +35,12 @@
 			bottom: 0;
 			text-align: left;
 			height: 70px;
-			background-color: #F8F8F8;
+			background-color: $color-light-grey;
 			z-index: 1;
 		}
 
 		@media screen and (min-width:1120px) {
-			background-color: #FFF;
+			background-color: $color-white;
 		}
 
 		@media screen and (min-width:1440px) {
