@@ -17,7 +17,7 @@
               </div>
               <div class="logo-and-feedback-btns">
                   <div class="logo-and-feedback-btns-left-side">
-                      <a href="/index.html" class="logo-and-feedback-btns-left-side__logo-link">
+                      <a href="/web-core-page/index.html" class="logo-and-feedback-btns-left-side__logo-link">
                           <img src="./img/site-header/logo.svg" alt="CPS-company logo" class="logo-and-feedback-btns__company-logo navbar__company-logo">
                       </a>
                   </div>
@@ -31,35 +31,35 @@
           <ul class="vertical-menu">
             <li class="vertical-menu__item">
               <div class="right-rounded-border right-rounded-border--small"></div>
-              <a class="link vertical-menu__link" href="/techs-repair.html">Ремонт техники</a>
+              <a class="link vertical-menu__link" href="/web-core-page/techs-repair.html">Ремонт техники</a>
             </li>
             <li class="vertical-menu__item">
               <div class="right-rounded-border right-rounded-border--small"></div>
-              <a class="link vertical-menu__link" href="/index.html">Услуги и сервисы</a>
+              <a class="link vertical-menu__link" href="/web-core-page/index.html">Услуги и сервисы</a>
             </li>
             <li class="vertical-menu__item">
               <div class="right-rounded-border right-rounded-border--small"></div>
-              <a class="link vertical-menu__link" href="/corporative-clients.html">Корпоративным клиентам</a>
+              <a class="link vertical-menu__link" href="/web-core-page/corporative-clients.html">Корпоративным клиентам</a>
             </li>
             <li class="vertical-menu__item">
               <div class="right-rounded-border right-rounded-border--small"></div>
-              <a class="link vertical-menu__link" href="/techs-salesmans.html">Продавцам техники</a>
+              <a class="link vertical-menu__link" href="/web-core-page/techs-salesmans.html">Продавцам техники</a>
             </li>
             <li class="vertical-menu__item">
               <div class="right-rounded-border right-rounded-border--small right-rounded-border--visible"></div>
-              <a class="link vertical-menu__link vertical-menu__link--choosed" href="/partners.html" tabindex="-1">Партнёрам</a>
+              <a class="link vertical-menu__link vertical-menu__link--choosed" href="/web-core-page/partners.html" tabindex="-1">Партнёрам</a>
             </li>
             <li class="vertical-menu__item">
               <div class="right-rounded-border right-rounded-border--small"></div>
-              <a class="link vertical-menu__link" href="/manufacturers.html">Производителям</a>
+              <a class="link vertical-menu__link" href="/web-core-page/manufacturers.html">Производителям</a>
             </li>
             <li class="vertical-menu__item">
               <div class="right-rounded-border right-rounded-border--small"></div>
-              <a class="link vertical-menu__link" href="/our-services-centers.html">Наши сервисные центры</a>
+              <a class="link vertical-menu__link" href="/web-core-page/our-services-centers.html">Наши сервисные центры</a>
             </li>
             <li class="vertical-menu__item">
               <div class="right-rounded-border right-rounded-border--small"></div>
-              <a class="link vertical-menu__link" href="./contacts.html">Контакты</a>
+              <a class="link vertical-menu__link" href="/web-core-page/contacts.html">Контакты</a>
             </li>
           </ul>
           <footer class="sidebar-footer">
@@ -87,7 +87,7 @@
             <div class="logo-and-feedback-btns">
               <div class="logo-and-feedback-btns-left-side">
                 <img src="./img/site-header/v-divider-ic.png" alt="vertical divider" class="logo-and-feedback-btns__v-divider logo-and-feedback-btns__v-divider--left">
-                <a href="/index.html" class="logo-and-feedback-btns-left-side__logo-link">
+                <a href="/web-core-page/index.html" class="logo-and-feedback-btns-left-side__logo-link">
                 <img src="./img/site-header/logo.svg" alt="CPS-company logo" class="logo-and-feedback-btns__company-logo">
                 </a>
               </div>
@@ -132,42 +132,47 @@
         <div class="blurry-window"></div>
       </div>
       <aside class="modal-screen modal-screen--send-feedback">
-        <div class="modal-screen-header">
-          <button class="btn modal-screen-header__btn btn--round btn--close-icon btn--interactive--change-bg-2" type="button"></button>
+        <div class="modal-screen__container">
+          <div class="modal-screen-header">
+            <button class="btn modal-screen-header__btn btn--round btn--close-icon btn--interactive--change-bg-2" type="button"></button>
+          </div>
+          <div class="page-title modal-screen__page-title text">
+            <div class="right-rounded-border modal-screen__right-rounded-border right-rounded-border--visible"></div>
+            <h1 class="heading page-title__heading">Обратная связь</h1>
+          </div>
+          <form class="modal-screen-form" action="" name="feedbackForm">
+            <input name="name" class="modal-screen-form__input text text--placeholder-color page-title__text" type="text" placeholder="Имя">
+            <input name="phone-number" class="modal-screen-form__input text text--placeholder-color page-title__text" type="text" placeholder="Телефон">
+            <input name="email" class="modal-screen-form__input text text--placeholder-color page-title__text" type="text" placeholder="Электронная почта">
+            <textarea name="message" class="modal-screen-form__textarea text text--placeholder-color page-title__text" placeholder="Сообщение"></textarea>
+            <p class="modal-screen-form__description text text--description-color">Нажимая “отправить”, вы даете согласие на <a href="#" class="link text text--pink">обработку персональных данных</a> и соглашаетесь с нашей <a href="#" class="link text text--pink">политикой конфиденциальности</a></p>
+            <button class="btn modal-screen-form__btn text text--white btn--interactive--change-bg-2">
+              отправить
+              <img src="./img/common/right-arr.svg" class="right-array modal-screen-form__right-array" alt="Указатель направо">
+            </button>
+          </form>
         </div>
-        <div class="page-title modal-screen__page-title text">
-          <div class="right-rounded-border modal-screen__right-rounded-border right-rounded-border--visible"></div>
-          <h1 class="heading page-title__heading">Обратная связь</h1>
-        </div>
-        <form class="modal-screen-form" action="" name="feedbackForm">
-          <input name="name" class="modal-screen-form__input text text--placeholder-color page-title__text" type="text" placeholder="Имя">
-          <input name="phone-number" class="modal-screen-form__input text text--placeholder-color page-title__text" type="text" placeholder="Телефон">
-          <input name="email" class="modal-screen-form__input text text--placeholder-color page-title__text" type="text" placeholder="Электронная почта">
-          <textarea name="message" class="modal-screen-form__textarea text text--placeholder-color page-title__text" placeholder="Сообщение"></textarea>
-          <p class="modal-screen-form__description text text--description-color">Нажимая “отправить”, вы даете согласие на <a href="#" class="link text text--pink">обработку персональных данных</a> и соглашаетесь с нашей <a href="#" class="link text text--pink">политикой конфиденциальности</a></p>
-          <button class="btn modal-screen-form__btn text text--white btn--interactive--change-bg-2">
-            отправить
-            <img src="./img/common/right-arr.svg" class="right-array modal-screen-form__right-array" alt="Указатель направо">
-          </button>
-        </form>
       </aside>
       <aside class="modal-screen modal-screen--request-a-call">
-        <div class="modal-screen-header">
-          <button class="btn modal-screen-header__btn btn--round btn--close-icon btn--interactive--change-bg-2" type="button"></button>
+        <div class="modal-screen__container">
+          <div class="modal-screen-header">
+            <button class="btn modal-screen-header__btn btn--round btn--close-icon btn--interactive--change-bg-2" type="button"></button>
+          </div>
+          <div class="page-title modal-screen__page-title text">
+            <div class="right-rounded-border modal-screen__right-rounded-border right-rounded-border--visible"></div>
+            <h1 class="heading page-title__heading">Заказать звонок</h1>
+          </div>
+          <form class="modal-screen-form" action="" name="requestCallForm">
+            <input name="phone-number" class="modal-screen-form__input text text--placeholder-color page-title__text" type="text" placeholder="Телефон">
+            <p class="modal-screen-form__description text text--description-color">Нажимая “отправить”, вы даете согласие на <a class="link text text--pink">обработку персональных данных</a> и соглашаетесь с нашей <a class="link text text--pink">политикой конфиденциальности</a></p>
+            <button class="btn modal-screen-form__btn text text--white btn--interactive--change-bg-2">
+              отправить
+              <img src="./img/common/right-arr.svg" class="right-array modal-screen-form__right-array" alt="Указатель направо">
+            </button>
+          </form>
         </div>
-        <div class="page-title modal-screen__page-title text">
-          <div class="right-rounded-border modal-screen__right-rounded-border right-rounded-border--visible"></div>
-          <h1 class="heading page-title__heading">Заказать звонок</h1>
-        </div>
-        <form class="modal-screen-form" action="" name="requestCallForm">
-          <input name="phone-number" class="modal-screen-form__input text text--placeholder-color page-title__text" type="text" placeholder="Телефон">
-          <p class="modal-screen-form__description text text--description-color">Нажимая “отправить”, вы даете согласие на <a class="link text text--pink">обработку персональных данных</a> и соглашаетесь с нашей <a class="link text text--pink">политикой конфиденциальности</a></p>
-          <button class="btn modal-screen-form__btn text text--white btn--interactive--change-bg-2">
-            отправить
-            <img src="./img/common/right-arr.svg" class="right-array modal-screen-form__right-array" alt="Указатель направо">
-          </button>
-        </form>
       </aside>
+      <div class="blurry-window"></div>
     </div>
   </body>
 </html>

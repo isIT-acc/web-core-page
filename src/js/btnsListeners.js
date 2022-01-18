@@ -36,7 +36,8 @@ var phoneBtnHandler = function () {
       modalScreens[j].style.setProperty("z-index", "13");
       modalScreens[j].style.setProperty("opacity", "1");
       navbarCloseBtnHandler();
-      blurryWindow.style.setProperty("z-index", "10");
+      blurryWindow.style.setProperty("z-index", "11");
+      window.scroll(0,0);
       document.querySelector("body").style.setProperty("overflow", "hidden");
     } else {
       modalScreens[j].style.removeProperty("transform");
@@ -53,7 +54,8 @@ var messageBtnHandler = function () {
       modalScreens[j].style.setProperty("z-index", "13");
       modalScreens[j].style.setProperty("opacity", "1");
       navbarCloseBtnHandler();
-      blurryWindow.style.setProperty("z-index", "10");
+      blurryWindow.style.setProperty("z-index", "11");
+      window.scroll(0,0);
       document.querySelector("body").style.setProperty("overflow", "hidden");
     } else {
       modalScreens[j].style.removeProperty("transform");

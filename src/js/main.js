@@ -35,11 +35,11 @@ export function addOrRemoveTabindexAttr(elements,aboveElement){
   }  
 }
 
-window.addEventListener("resize",function(){
-  if(window.innerWidth>=1120){
-    navbarCloseBtnHandler();
-  }
-})
+// window.addEventListener("resize",function(){
+//   if(window.innerWidth>=1120){
+//     navbarCloseBtnHandler();
+//   }
+// })
 
 var blurryWindow = document.querySelector(".blurry-window")
 addClickListener(blurryWindow, navbarCloseBtnHandler);
