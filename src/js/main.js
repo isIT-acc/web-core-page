@@ -40,6 +40,8 @@ window.addEventListener("resize",function(){
     navbarCloseBtnHandler();
   }
 })
+
 var blurryWindow = document.querySelector(".blurry-window")
 addClickListener(blurryWindow, navbarCloseBtnHandler);
 addClickListener(blurryWindow, hideModalScreens);
+

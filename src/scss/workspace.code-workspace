@@ -2,12 +2,6 @@
 	"folders": [
 		{
 			"path": "..\\.."
-		},
-		{
-			"path": "..\\..\\..\\..\\блок_1_3\\задание\\web-core-project"
-		},
-		{
-			"path": "..\\..\\..\\webpack-course-2020"
 		}
 	],
 	"settings": {

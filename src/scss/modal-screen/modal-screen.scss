@@ -28,6 +28,11 @@
         opacity: 0;
     }
     
+    &__container{
+        overflow: scroll;
+        height: 100%;
+    }
+
     &__page-title{
         margin-bottom: 24px;
         margin-top: 32px;

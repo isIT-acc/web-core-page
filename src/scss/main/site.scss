@@ -9,12 +9,13 @@
 	}
 	&__container {
 		max-width: 1120px;
-		margin: 0 auto;
+		margin: 0 ;
 		background: $color-light-grey;
 		position:relative;
-		@media screen and (min-width:1120px){
-			background: $color-white;
-		}
+		width: 100%;
+		// @media screen and (min-width:1120px){
+		// 	background: $color-white;
+		// }
 
 		// &--blured{
 		// 	&:after{
